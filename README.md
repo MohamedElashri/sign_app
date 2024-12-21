@@ -2,18 +2,6 @@
 
 `sign-app` is a bash script for macOS that simplifies the process of code signing user-installed applications. It provides a safe and user-friendly way to sign apps, excluding system applications to maintain system integrity.
 
-## Features
-
-- Sign a specific user-installed app by name
-- List all user-installed macOS apps and choose one to sign
-- Exclude system apps from listing and signing operations
-- Check if an app is already signed
-- Force re-signing of already signed apps
-- Specify custom entitlements file
-- Create backups before signing
-- Cache list of user-installed apps for improved performance
-- Verbose output option for debugging
-
 ## Installation
 
 1. Clone this repository:
